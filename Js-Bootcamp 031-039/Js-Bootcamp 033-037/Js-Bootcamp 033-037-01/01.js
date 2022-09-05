@@ -1,17 +1,8 @@
-//Variables
-let numberOne = 10;
-let numberTwo = 20;
-
-//Output
-console.log(numberOne + "" + numberTwo)
-console.log(typeof (numberOne + "" + numberTwo))
-console.log(`${numberOne}${numberTwo}`)
-console.log(typeof (`${numberOne}${numberTwo}`))
-
-
-//Normal concatenate
-console.log(numberTwo + "\n" + numberOne);
-
-//Template literals Way
-console.log(`${numberTwo}
-${numberOne}`);
+let num = 10;
+if (num < 10) {
+  console.log(`00${num}`);
+} else if (num > 10 && num < 100) {
+  console.log(`0${num}`);
+} else {
+  console.log(num);
+}
