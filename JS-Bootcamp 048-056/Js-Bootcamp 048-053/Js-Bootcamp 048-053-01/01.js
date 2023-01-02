@@ -3,7 +3,7 @@ let end = 100;
 let exclude = 40;
 
 for (i = 0; i < end; ) {
-  i += 10;
+  i += start;
   if (i === exclude) {
     continue;
   }

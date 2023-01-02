@@ -4,7 +4,7 @@ let stop = 3;
 
 for (i = start; ; ) {
   console.log(i);
-  if (i === 3) break;
+  if (i === stop) break;
   i--;
 }
 // Output

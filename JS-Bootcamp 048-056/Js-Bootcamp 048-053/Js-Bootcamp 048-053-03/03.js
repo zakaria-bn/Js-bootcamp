@@ -7,6 +7,6 @@ for (i = 0; i < end; ) {
   console.log(i);
   for(j=breaker;j<end;){
   console.log(`--${[j]}`)
-  j+= 2;
+  j+= breaker;
   }
 }
