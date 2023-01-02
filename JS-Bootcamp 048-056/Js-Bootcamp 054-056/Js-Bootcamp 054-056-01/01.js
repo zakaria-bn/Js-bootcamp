@@ -1,10 +1,7 @@
-let myFriends = ["Ahmed", "Elham", "Osama", "Gamal"];
-let num = 3;
+let friends = ["Ahmed", "Sayed", "Ali", 1, 2, "Mahmoud", "Amany"];
+let index = 0;
+let counter = 0;
 
-// Method 1
-myFriends.length = num;
-console.log(myFriends); // ["Ahmed", "Elham", "Osama"];
-
-// Method 2
-
-console.log(myFriends.slice(0, 3)); // ["Ahmed", "Elham", "Osama"];
+// Output
+"1 => Sayed"
+"2 => Mahmoud"

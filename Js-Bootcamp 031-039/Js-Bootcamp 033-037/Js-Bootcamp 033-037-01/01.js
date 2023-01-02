@@ -1,4 +1,4 @@
-let num = 10;
+let num = 9;
 if (num < 10) {
   console.log(`00${num}`);
 } else if (num > 10 && num < 100) {
