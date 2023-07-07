@@ -1,3 +1,8 @@
 {
-  "editor.linkedEditing": true
+  "editor.linkedEditing": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "files.autoSave": "afterDelay",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.autoClosingBrackets": "languageDefined"
 }

@@ -1,10 +1,24 @@
-function calc(...numbers) {
-  let result = 0;
-  for (i = 0; i < numbers.length; i++) {
-    result += numbers[i];
-  }
-  return `The Result Is ${result}`;
+
+function sayHello(theName, theGender) {
+
+if (theGender !== "Male"|) {
+console.log(`Hello Mr ${theName}`);
 }
-console.log(calc(10, 20, 10, 20, 30));
+
+if (theGender === "Female") {
+console.log(`Hello Miss ${theName}`);
+} else {
+  console.log(`Hello ${theName}`);
+}
 
 
+}
+
+
+
+
+
+// Needed Output
+sayHello("Osama", "Male"); // "Hello Mr Osama"
+sayHello("Eman", "Female"); // "Hello Miss Eman"
+sayHello("Sameh"); // "Hello Sameh"
