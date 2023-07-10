@@ -1,8 +1,22 @@
 
 function calculate(firstNum, secondNum, operation) {
-  // Your Code Here
+if (firstNum >= 0 && secondNum >= 0 && operation === `add`) {
+  console.log(`${firstNum + secondNum}`);
+
+} else if (firstNum >= 0 && secondNum >= 0 && operation === `subtract`) {
+  console.log(`${firstNum - secondNum}`);
+
+} else if (firstNum >= 0 && secondNum >= 0 && operation === `multiply`) {
+  console.log(`${firstNum * secondNum}`);
+
+} else if (firstNum >= 0 && secondNum >= 0 ) {
+  console.log(`${firstNum + secondNum}`);
+  
+} else {
+  console.log(`Second Number Not Found`);
 }
 
+}
 // Needed Output
 calculate(20); // Second Number Not Found
 calculate(20, 30); // 50
