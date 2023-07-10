@@ -1,20 +1,22 @@
 
 function calculate(firstNum, secondNum, operation) {
-if (firstNum >= 0 && secondNum >= 0 && operation === `add`) {
-  console.log(`${firstNum + secondNum}`);
 
-} else if (firstNum >= 0 && secondNum >= 0 && operation === `subtract`) {
-  console.log(`${firstNum - secondNum}`);
+ if ( secondNum === undefined && operation === undefined) {
+  console.log("Second Number Not Found");
 
-} else if (firstNum >= 0 && secondNum >= 0 && operation === `multiply`) {
-  console.log(`${firstNum * secondNum}`);
-
-} else if (firstNum >= 0 && secondNum >= 0 ) {
+} else if ( operation === undefined ) {
   console.log(`${firstNum + secondNum}`);
   
-} else {
-  console.log(`Second Number Not Found`);
-}
+}else if (operation === "add") {
+  console.log(firstNum + secondNum);
+
+} else if (operation === "subtract") {
+  console.log(`${firstNum - secondNum}`);
+
+} else if ( operation === "multiply") {
+  console.log(firstNum * secondNum);
+
+} 
 
 }
 // Needed Output
