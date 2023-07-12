@@ -1,11 +1,17 @@
 
-function calculate(firstNum, secondNum, operation) {
-  // Your Code Here
+function checkStatus(a, b, c) {
+a === String ;
+b === Number;
+if (c === true) {
+  c = "Available"
+} else if (c === false) {
+  c = "Not Available"
+}
+  console.log(`Hello ${a}, Your Age Is ${b}, You Are ${c} For Hire`);
 }
 
+
+
 // Needed Output
-calculate(20); // Second Number Not Found
-calculate(20, 30); // 50
-calculate(20, 30, 'add'); // 50
-calculate(20, 30, 'subtract'); // -10
-calculate(20, 30, 'multiply'); // 600
+checkStatus("Osama", 38, false); // "Hello Osama, Your Age Is 38, You Are Available For Hire"
+checkStatus(38, "Osama", true);
